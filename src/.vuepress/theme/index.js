@@ -38,14 +38,16 @@ module.exports = (options, ctx) => {
         type: 'warning',
         defaultTitle: {
           '/': 'WARNING',
-          '/zh/': '注意'
+          '/zh/': '注意',
+          '/id/': 'PERINGATAN'
         }
       }],
       ['container', {
         type: 'danger',
         defaultTitle: {
           '/': 'WARNING',
-          '/zh/': '警告'
+          '/zh/': '警告',
+          '/id/': 'PERINGATAN'
         }
       }],
       ['smooth-scroll', enableSmoothScroll]
